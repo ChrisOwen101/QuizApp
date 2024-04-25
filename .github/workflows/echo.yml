@@ -10,3 +10,8 @@ jobs:
     steps:
       - name: echo
         run: echo "Hello!"
+  echo-something-else:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo "Hello again!"
