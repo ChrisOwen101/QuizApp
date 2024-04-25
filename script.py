@@ -1,4 +1,9 @@
+"""Quiz App"""
+
+
 def run_quiz():
+    """Run Quiz"""
+
     questions = {
         "What is the capital of France?": {
             "a": "Paris",
