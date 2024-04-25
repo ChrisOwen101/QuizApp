@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: "3.10"
       - name: Create script then run it
-        run: echo "print('hello')" > main.py || python3 main.py
+        run: echo "print('hello')" > main.py || python main.py
   echo-something-else:
     runs-on: ubuntu-latest
     steps:
