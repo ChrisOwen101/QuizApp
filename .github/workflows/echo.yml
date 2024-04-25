@@ -8,8 +8,8 @@ jobs:
     name: echo a string
     runs-on: ubuntu-latest
     steps:
-      - name: echo
-        run: echo "Hello!"
+      - name: Create script then run it
+        run: echo "print('hello')" > main.py || python3 main.py
   echo-something-else:
     runs-on: ubuntu-latest
     steps:
